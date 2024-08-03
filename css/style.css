@@ -1,517 +1,443 @@
 *,
 * ::before,
-*::after{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+*::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.contaner{
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
-   margin-top: 100px;
-  
+.contaner {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
 }
 
- /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!utlity calasses 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-    .eat{
-        text-transform: uppercase;
-        font-size: 2.5rem;
-        margin-bottom: 6px
-         
-    }
-    .heading-1{
-        font-size: 4rem;
-        font-weight: 100;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    .btn-2{
-      
-        text-decoration: none;
-        color: #fff;
-        background-color:brown;
-        font-size: 2rem;
-        display: block;
-        text-align: center;
-     
-        border-radius: 20px;
-    }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!utlity calasses 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.eat {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 6px;
+}
+.heading-1 {
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.btn-2 {
+  text-decoration: none;
+  color: #fff;
+  background-color: brown;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
 
-    .btn{
-        font-size: 1.5rem;
-        padding: 10px 25px;
-        
+  border-radius: 20px;
+}
 
-    }
-    
-    .h22{
-        color:black;
-        font-size: 5rem;
+.btn {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+}
 
-    }
-    .ff{
-        font-size: 4rem;
-        color: #fff;
-        text-transform: uppercase;
-    }
+.h22 {
+  color: black;
+  font-size: 5rem;
+}
+.ff {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! nav bar !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.navbar{
-    box-shadow: 0px 5px 10px rgb(139, 133, 133);
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    height: 62px;
-    background-color:#fff;
-    opacity: 80%;
-    
+.navbar {
+  box-shadow: 0px 5px 10px rgb(139, 133, 133);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 62px;
+  background-color: #fff;
+  opacity: 80%;
 }
 
 input[type="checkbox"],
-.navbar line{
-    display: none;
+.navbar line {
+  display: none;
 }
 
-.nav-contaner{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+.nav-contaner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-.menu-item{
-    order: 2;
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-
+.menu-item {
+  order: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
-.menu-item .item :hover{
-   color:rgba(52, 201, 119, 0.881);
+.menu-item .item :hover {
+  color: rgba(52, 201, 119, 0.881);
 }
 
-.logo{
-    order: 1;
-    text-align: center;
-    font-size: 2.5rem;
-    padding-right: 500px;
+.logo {
+  order: 1;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-right: 500px;
 }
 .menu-item li {
-    list-style: none;
+  list-style: none;
 }
 
-.menu-item li a{
-    text-decoration: none;
-    color: black;
+.menu-item li a {
+  text-decoration: none;
+  color: black;
 }
-
-
-
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! main pagee !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.showcase{
-    height: 50vh;
-    background: url("../img/pexels-ella-olsson-1640774.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    
-
-    
+.showcase {
+  height: 50vh;
+  background: url("../img/pexels-ella-olsson-1640774.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.showcase .showcase-div{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-  
-    
-    
-        
+.showcase .showcase-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.aa{
-    text-decoration: none;
-    background-color: rgb(1, 166, 243);
-    color: white;
-    border-radius: 20px; 
-
+.aa {
+  text-decoration: none;
+  background-color: rgb(1, 166, 243);
+  color: white;
+  border-radius: 20px;
 }
 
-.pp{
-    margin-bottom: 20px;
-    font-size: 2rem;
-    
+.pp {
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 /* 
 ########################################### show-case-2 ##################################################### */
 
-.showcase-2{
-    margin-top: 70px;
-    box-shadow: 5px 10px 10px rgb(201, 192, 192) ;
-    
+.showcase-2 {
+  margin-top: 70px;
+  box-shadow: 5px 10px 10px rgb(201, 192, 192);
 }
-.food{
-    font-size: 4rem;
-    margin-bottom: 10px;
-}
-
-.div-2 .text{
-  
-    width: 70%;
-    padding-right: 100px;
-    transform: translate(-150%);
-    animation: text 1s ease-in-out forwards;
+.food {
+  font-size: 4rem;
+  margin-bottom: 10px;
 }
 
-@keyframes text{
-    100%{
-        transform: translate(0%);
-    }
-}
-.food-p{
-    font-size: 1.5rem;
-}
-.div-2 .img{
-    width: 30%;
-    height: 250px;
-  
-    background-image: url("../img/pexels-pixabay-36736.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: translate(150%);
-    animation: img 1s ease-in-out forwards;
-    
-    
-}
-@keyframes img{
-    100%{
-        transform:translate(0%);
-    }
-}
-    .div-2{
-   
- display: flex;
-    justify-content: space-around;
+.div-2 .text {
+  width: 70%;
+  padding-right: 100px;
+  transform: translate(-150%);
+  animation: text 1s ease-in-out forwards;
 }
 
- /* ################################################# showcase-3 ########################################## */
-.img-box{
-    display: flex;
-    justify-content: space-between;
-    
+@keyframes text {
+  100% {
+    transform: translate(0%);
+  }
 }
-.box{
-  
+.food-p {
+  font-size: 1.5rem;
+}
+.div-2 .img {
+  width: 30%;
+  height: 250px;
+  background-image: url("../img/pexels-pixabay-36736.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(150%);
+  animation: img 1s ease-in-out forwards;
+}
+@keyframes img {
+  100% {
+    transform: translate(0%);
+  }
+}
+.div-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ################################################# showcase-3 ########################################## */
+.img-box {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
   max-width: 32%;
   position: relative;
-  
-
 }
 
+.box::after {
+  content: "";
 
-.box::after{
-    content: "";
-   
-    display: block;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 1, 0.751);
-    z-index: 1;
-    opacity: 0;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 1, 0.751);
+  z-index: 1;
+  opacity: 0;
 
-    
-    transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
-.box:hover::after{
-    opacity: 1;
-    
-    
+.box:hover::after {
+  opacity: 1;
 }
 
-.box img{
-    display: block;
-    width: 100%;
-    
+.box img {
+  display: block;
+  width: 100%;
 }
 
-.box-1{
-      position: absolute;
-      top:80%;
-      left: 50%; 
-      transform: translate(-50%,-50%);
-      z-index: 2;
-      opacity: 0;
-      transition:  all  0.5s ease-in-out ;
+.box-1 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
-.box-1:hover{
-    opacity: 1;
-    top: 50%;
-
+.box-1:hover {
+  opacity: 1;
+  top: 50%;
 }
-  
 
 /* #######################################################show-case-4 ################################################## */
 
-.menu-img img{
-    width: 250px;
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
+.menu-img img {
+  width: 250px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
 }
 
-.menu-contaner{
-
-    display: flex;
+.menu-contaner {
+  display: flex;
 }
 
-.menu-contaner-1{
-
-    width: 50%;
+.menu-contaner-1 {
+  width: 50%;
 }
-.menu-contaner-2{
- 
-    width: 50%;
-   
+.menu-contaner-2 {
+  width: 50%;
 }
-.dish-menu{
-    display: flex;
+.dish-menu {
+  display: flex;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.menu-text{
-    margin: auto;
+.menu-text {
+  margin: auto;
   margin-left: 20px;
 }
 
-.menu-h{
-    font-size: 3rem;
-    font-weight: 100;
-    margin-bottom: 5px;
-    color: rgb(26, 29, 31);
-    text-align: center;
+.menu-h {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 5px;
+  color: rgb(26, 29, 31);
+  text-align: center;
 }
-.menu-p{
-    font-size: 1.7rem;
-    color: gray;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-.menu-price{
-    text-decoration: none;
-    font-size: 1.8rem;
-    color:royalblue;
-    text-align: center;
-    display: block;
-}
-.menu-main-h{
-    text-align: center;
-    font-size: 4.5rem;
-    font-weight: 200;
-    margin-bottom: 50px;
- 
-
+.menu-p {
+  font-size: 1.7rem;
+  color: gray;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
+.menu-price {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: royalblue;
+  text-align: center;
+  display: block;
+}
+.menu-main-h {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
 
- /* ##########################################showcase-5 ############################################## */
+/* ##########################################showcase-5 ############################################## */
 
- .costamer-img img{
-    width: 150px;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
- }
+.costamer-img img {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
 
- .costamer-contaner{
-    display: flex;
-    justify-content: space-between;
+.costamer-contaner {
+  display: flex;
+  justify-content: space-between;
+}
 
- }
+.costamer-1 {
+  max-width: 30%;
+}
 
- .costamer-1{
+.costamer-1 .star {
+  font-size: 2rem;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
-    max-width: 30%;
+.costamer-1 .costamer-text {
+  align-items: center;
+}
 
- }
+.costamer-1 .costamer-img {
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
 
- .costamer-1 .star{
-    font-size: 2rem;
-    color: yellow;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
- }
-
- .costamer-1 .costamer-text{
-    align-items: center;
- }
-
- .costamer-1 .costamer-img{
-    margin-left: 110px;
-    margin-top: 20px;
-    margin-bottom: 100px;
- }
-
- .costamer-showcase{
- 
-    background-color:#f2f0e9;
-
- }
- .name{
-    font-size: 2rem;
-    margin-left: 55px;
-    margin-top: 10px;
- }
+.costamer-showcase {
+  background-color: #f2f0e9;
+}
+.name {
+  font-size: 2rem;
+  margin-left: 55px;
+  margin-top: 10px;
+}
 
 /*  
  3###########################################show case-6 ############################################# */
 
-
- .form
- {
-    display: flex;
-  
-   
- }
-.form .form-img{
-    width: 50%;
+.form {
+  display: flex;
 }
- .form-text
- {
- 
+.form .form-img {
+  width: 50%;
+}
+.form-text {
   width: 50%;
   background-color: #fff;
+}
 
+.form-h {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.form-p {
+  font-size: 1.9rem;
+  font-weight: 100;
+  word-spacing: 2px;
+  margin-left: 10px;
+}
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.form-btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 100px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(7, 7, 6);
+  color: #fff;
+  border-radius: 100px;
+  margin-left: 10px;
+}
 
- }
+/* #########################################footer############################################### */
 
- .form-h{
-    font-size: 4rem;
-    font-weight: 100;
-    margin-bottom: 10px;
-    margin-left: 10px;
+.footer {
+  border: 3px solid black;
+  padding: 30px 0px;
+  margin-top: 50px;
+  background-color: rgb(32, 16, 16);
+}
+.footer-h {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
 
+/* ##########################################################medea qyuary###################################################### */
 
- }
- .form-p
- {
-    font-size: 1.9rem;
-    font-weight: 100;
-    word-spacing: 2px;
-    margin-left: 10px;
-    
- }
- .input
- {
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid gray;
-    margin-bottom: 20px;
-    margin-left: 10px;
+@media (max-width: 500px) {
+  html {
+    font-size: 49%;
+  }
 
- }
- .form-btn
- {  
-    text-decoration: none;
-    font-size: 1.5rem;
-    width: 100px;
-    height: 30px;
-    display: block;
-    text-align: center;
-    padding-top: 5px;
-    background-color: rgb(7, 7, 6);
-    color: #fff;
-    border-radius: 100px;
-    margin-left: 10px;
- }
- 
- /* #########################################footer############################################### */
-
- .footer{
-    border: 3px solid black;
-    padding: 30px 0px;
-    margin-top: 50px;
-    background-color: rgb(32, 16, 16)
- }
- .footer-h{
-    text-align: center;
-    font-size: 1.5rem;
-    color: #fff;
- }
-
-
-
-
- /* ##########################################################medea qyuary###################################################### */
-
- @media (max-width:500px){
-
-    html{
-        font-size: 49%;
-    }
-    
-.nav-contaner{
+  .nav-contaner {
     display: block;
     justify-content: space-around;
     margin-top: 20px;
     padding-left: 10px;
-    
-}
+  }
 
-.menu-contaner{
-
+  .menu-contaner {
     display: block;
-}
-.dish-menu{
+  }
+  .dish-menu {
     display: block;
 
     margin-bottom: 10px;
-}
+  }
 
-
-.menu-item .item a{
+  .menu-item .item a {
     text-align: center;
     padding-left: 10px;
     margin-left: 10px;
-}
-.menu-contaner-1{
-
+  }
+  .menu-contaner-1 {
     width: 100%;
-}
-.menu-contaner-2{
- 
+  }
+  .menu-contaner-2 {
     width: 100%;
-   
-}
+  }
 
-.menu-img img{
+  .menu-img img {
     width: 250px;
     height: 250px;
     background-position: center;
@@ -519,125 +445,101 @@ input[type="checkbox"],
     background-size: cover;
     border-radius: 50%;
     margin-left: 90px;
-}
-.div-2{
-   
+  }
+  .div-2 {
     display: block;
-      
-   }
-   
-   .div-2 .img{
+  }
+
+  .div-2 .img {
     width: 90%;
     height: 250px;
-  
+
     background-image: url("../img/pexels-pixabay-36736.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transform: translate(150%);
     animation: img 1s ease-in-out forwards;
-    
-    
-}
+  }
 
-.div-2 .text{
-   margin-left: 30px;
+  .div-2 .text {
+    margin-left: 30px;
     width: 100%;
     padding-right: 80px;
     margin-bottom: 20px;
-}
+  }
 
-.costamer-contaner{
+  .costamer-contaner {
     display: block;
     justify-content: space-between;
+  }
 
- }
-
- .costamer-1{
-
+  .costamer-1 {
     max-width: 100%;
+  }
 
- }
-
- .name{
+  .name {
     font-size: 2rem;
     margin-left: 55px;
-    
- }
- 
- .costamer-1 .costamer-img{
+  }
+
+  .costamer-1 .costamer-img {
     margin-left: 140px;
     margin-top: 20px;
     margin-bottom: 50px;
- }
+  }
 
-.form
- {
+  .form {
     display: block;
-  
+  }
 
- }
- 
- .form-text
- {
- margin-top: 20px;
-  width: 100%;
-  background-color: #fff;
-
-
- }
- .form .form-img{
+  .form-text {
+    margin-top: 20px;
     width: 100%;
- }
+    background-color: #fff;
+  }
+  .form .form-img {
+    width: 100%;
+  }
 }
 
- /* #########################################################media quary !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* #########################################################media quary !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-    @media (min-width: 501px) and (max-width: 768px) { 
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
 
-
-    html{
-        font-size: 40%;
-    }
-    
-.nav-contaner{
+  .nav-contaner {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
     padding-left: 10px;
-    
-}
+  }
 
-.menu-item .item a{
+  .menu-item .item a {
     text-align: center;
     padding-left: 10px;
     margin-left: 10px;
-}
+  }
 
-
-.menu-contaner{
-
+  .menu-contaner {
     display: flex;
-}
-.dish-menu{
-    display:flex;
+  }
+  .dish-menu {
+    display: flex;
 
     margin-bottom: 10px;
-}
+  }
 
-
-
-.menu-contaner-1{
-
+  .menu-contaner-1 {
     width: 100%;
-}
-.menu-contaner-2{
- 
+  }
+  .menu-contaner-2 {
     width: 100%;
-   
-}
+  }
 
-.menu-img img{
+  .menu-img img {
     width: 250px;
     height: 250px;
     background-position: center;
@@ -645,87 +547,67 @@ input[type="checkbox"],
     background-size: cover;
     border-radius: 50%;
     margin-left: 160px;
-}
-.div-2{
-   
+  }
+  .div-2 {
     display: block;
-      
-   }
-   
-   .div-2 .img{
+  }
+
+  .div-2 .img {
     width: 95%;
     height: 250px;
-  
+
     background-image: url("../img/pexels-pixabay-36736.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transform: translate(150%);
     animation: img 1s ease-in-out forwards;
-    
-    
-}
+  }
 
-.div-2 .text{
-  
+  .div-2 .text {
     width: 100%;
     padding-right: 80px;
     margin-bottom: 20px;
-}
+  }
 
-.costamer-contaner{
+  .costamer-contaner {
     display: block;
     justify-content: space-between;
+  }
 
- }
-
- .costamer-1{
-
+  .costamer-1 {
     max-width: 100%;
+  }
 
- }
-
- .name{
+  .name {
     font-size: 2rem;
     margin-left: 55px;
-    
- }
- 
- .costamer-1 .costamer-img{
+  }
+
+  .costamer-1 .costamer-img {
     margin-left: 200px;
     margin-top: 20px;
     margin-bottom: 50px;
- }
+  }
 
-.form
- {
-    display: block; 
+  .form {
+    display: block;
+  }
 
- }
- 
- .form-text
- {
- margin-top: 20px;
-  width: 100%;
-  background-color: #fff;
-
-
- }
-.form .form-img{
+  .form-text {
+    margin-top: 20px;
     width: 100%;
+    background-color: #fff;
+  }
+  .form .form-img {
+    width: 100%;
+  }
 }
 
+/* 3################################################################ last media ######################################### */
 
-
-
-
- }
-
-   /* 3################################################################ last media ######################################### */
-
-   @media (min-width: 769px) and (max-width: 1200px){
-
-    html{
-        font-size: 50%;
-    }
-   }
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
